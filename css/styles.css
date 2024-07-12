@@ -421,8 +421,19 @@ img {
   padding: 100px 0;
 }
 
-.footer-text {
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  row-gap: 72px;
+}
+
+.footer-first {
   max-width: 264px;
+  margin-right: 120px;
+}
+
+.footer-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -438,7 +449,7 @@ img {
   color: #f4f4fd;
 }
 
-/*.container-footer-social {
+.footer-social {
   margin-left: 120px;
 }
 
