@@ -350,6 +350,11 @@ img {
   background-color: var(--iris);
 }
 
+.social-link:hover,
+:focus {
+  background-color: #31d0aa;
+}
+
 .card-header {
   font-weight: 500;
   font-size: 20px;
