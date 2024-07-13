@@ -168,11 +168,7 @@ img {
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office\ 1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -212,6 +208,7 @@ img {
   margin: 0 auto;
   border: none;
   border-radius: 4px;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero .btn-baner:hover,
@@ -265,6 +262,7 @@ img {
   height: 112px;
   margin-bottom: 8px;
   border-radius: 4px;
+  border: 1px solid #8e8f99;
   background-color: #f4f4fd;
 }
 
@@ -311,6 +309,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
+  
 }
 
 .team-list-card {
@@ -320,8 +319,9 @@ img {
   padding: 32px 16px;
   text-align: center;
   width: 264px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
 
