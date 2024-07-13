@@ -480,6 +480,7 @@ img {
 .footer-social-list {
   gap: 16px;
   justify-content: center;
+  transition: background-color 250ms var(--green);
 }
 
 /* .social-item {
@@ -488,7 +489,7 @@ img {
 } */
 
 /* .footer-social-link {
-  transition: background-color 250ms var(--green);
+  
 } */
 
 .social-icon {
