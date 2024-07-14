@@ -517,7 +517,8 @@ img {
   justify-content: center;
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+:focus {
   background-color: #31d0aa;
 }
 
